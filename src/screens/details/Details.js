@@ -13,6 +13,7 @@ import GridListTile from '@material-ui/core/GridListTile';
 import GridListTileBar from '@material-ui/core/GridListTileBar';
 import StarBorderIcon from '@material-ui/icons/StarBorder';
 import Button from '@material-ui/core/Button';
+
 class Details extends Component {
     constructor() {
         super();
@@ -45,6 +46,7 @@ class Details extends Component {
             }]
         }
     }
+	
     componentWillMount() {
         let currentState = this.state;
         currentState.movie = moviesData.filter((mov) => {
@@ -164,4 +166,5 @@ class Details extends Component {
         )
     }
 }
+
 export default Details; 
