@@ -4,7 +4,6 @@ import "./header.css";
 import logo from "./logo.svg";
 
 class Header extends react.Component{
-
     render(){
         return(
             <div className="header">
@@ -13,5 +12,4 @@ class Header extends react.Component{
         )
     }
 }
-
 export default Header;

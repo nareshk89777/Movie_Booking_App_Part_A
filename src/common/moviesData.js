@@ -150,6 +150,7 @@ let moviesData = [
             }
         ]
     },
+
     {
         id: "M5",
         title: "Shahid",
@@ -243,6 +244,7 @@ let moviesData = [
                 "profile_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Leonardo_DiCaprio_visited_Goddard_Saturday_to_discuss_Earth_science_with_Piers_Sellers_%2826105091624%29_cropped.jpg",
                 "wiki_url": "https://en.wikipedia.org/wiki/Leonardo_DiCaprio"
             },
+
             {
                 "id": "A15",
                 "first_name": "Tom",
@@ -255,5 +257,4 @@ let moviesData = [
         ]
     }
 ]
-
 export default moviesData;

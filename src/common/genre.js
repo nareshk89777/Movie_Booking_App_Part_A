@@ -1,5 +1,4 @@
 let genres = [
-
     {
         id: 1,
         name: "Action"
@@ -12,6 +11,5 @@ let genres = [
         id: 3,
         name: "Drama"
     }
-	
 ]
 export default genres;
